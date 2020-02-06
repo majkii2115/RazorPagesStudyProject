@@ -413,3 +413,4 @@ D:\RazorPagesStudyProject\RazorPagesStudyProject\bin\Debug\netcoreapp3.1\zh-Hant
 D:\RazorPagesStudyProject\RazorPagesStudyProject\obj\Debug\netcoreapp3.1\RazorPagesStudyProject.MvcApplicationPartsAssemblyInfo.cs
 D:\RazorPagesStudyProject\RazorPagesStudyProject\obj\Debug\netcoreapp3.1\RazorPagesStudyProject.MvcApplicationPartsAssemblyInfo.cache
 D:\RazorPagesStudyProject\RazorPagesStudyProject\obj\Debug\netcoreapp3.1\Razor\Pages\BookList\Index.cshtml.g.cs
+D:\RazorPagesStudyProject\RazorPagesStudyProject\obj\Debug\netcoreapp3.1\Razor\Pages\BookList\Create.cshtml.g.cs

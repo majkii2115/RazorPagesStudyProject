@@ -8,7 +8,7 @@
         <h2 class="text-info">Book List</h2>
     </div>
     <div class="col-3">
-        <a class="btn btn-info form-control text-white"> Create a book </a>
+        <a asp-page="Create" class="btn btn-info form-control text-white"> Create a book </a>
     </div>
 
 
@@ -27,6 +27,10 @@
                             <label asp-for="Books.FirstOrDefault().Author"></label>
                         </th>
                         <th>
+                            @*@Html.DisplayNameFor(m=>m.Books.FirstOrDefault.Author)*@
+                            <label asp-for="Books.FirstOrDefault().ISBN"></label>
+                        </th>
+                        <th>
 
                         </th>
                     </tr>
@@ -38,6 +42,9 @@
                     </td>
                     <td>
                         @Html.DisplayFor(x => item.Author)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(x => item.ISBN)
                     </td>
                     <td>
                         <button class="btn btn-danger btn-sm">Delete</button>
